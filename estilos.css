@@ -44,11 +44,13 @@ h1{
     font-size: 25px;
 }
 p{
-    color: yellow; 
+    color: #333; 
     font-family: 'Courier New', Courier, monospace;
 }
 img{
-    border: 2px solid red
+    border: 2px solid chocolate;
+    border-radius: 10px;
+    align-items: center;
 }
 h2{
     color: burlywood;
