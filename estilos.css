@@ -12,3 +12,45 @@ img{
 h2{
     color: burlywood;
 }
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.list {
+    margin: 20px 0;
+}
+.list h2 {
+    color: #555;
+}
+.list ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+.list ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+.table-container {
+    margin-top: 20px;
+}
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+.table-container th, .table-container td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.table-container th {
+    background-color: #333;
+    color: white;
+}
+.table-container tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
