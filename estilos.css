@@ -1,3 +1,44 @@
+/*estilo para el encabezado*/
+header{
+    background-color: green;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+/*estilos para el nav*/
+nav a{
+    color:black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+nav a:hover{
+    color: chocolate;
+}
+/*estilos para la seccion principal*/
+.contenedor3{
+    width: 90%;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(0, 0, 130.1);
+}
+.contenedor3 h2{
+    color: #333;
+}
+.contenedor3 p{
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+}
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
 h1{
     color: black; 
     font-size: 25px;
