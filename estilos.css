@@ -48,10 +48,14 @@ p{
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
-img{
+.container2{
     border: 2px solid chocolate;
     border-radius: 10px;
     align-items: center;
+    text-align: center;
+}
+.container2 img{
+    display: inline-block;
 }
 h2{
     color: burlywood;
